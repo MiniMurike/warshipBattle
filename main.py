@@ -374,7 +374,7 @@ class ShipFactory:
             # Если однопалубный
             if ship_size == 1:
                 return new_ship
-            elif 2 <= ship_size <= 3:
+            elif 2 <= ship_size:
                 # 0 - Направление по X вправо || 1 - Направление по Y вниз
                 direction = rnd.randint(0, 1)
 
